@@ -3,7 +3,7 @@ import cafeBackground from '../../img/coffee.jpg'
 
 const Inicio = () => {
     return (
-        <div>
+        <div className='w-100'>
             <img className="w-100" src={cafeBackground} alt="Tazas de café" />
         </div>
     );
