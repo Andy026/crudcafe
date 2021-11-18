@@ -7,7 +7,7 @@ const Footer = () => {
         <div>
           <div>
             <div className="d-flex">
-              <h4 className="text-white text-decoration-none">Navegacion:</h4>
+              <h4 className="text-white text-decoration-none">Navegación:</h4>
               <div className="d-flex align-items-center mx-2">
               <a
                 className="text-white text-decoration-none ms-3"
@@ -17,9 +17,9 @@ const Footer = () => {
               </a>
               <a
                 className="text-white text-decoration-none ms-3"
-                href="producto"
+                href="productos"
               >
-                Producto
+                Productos
               </a>
               <a
                 className="text-white text-decoration-none ms-3"

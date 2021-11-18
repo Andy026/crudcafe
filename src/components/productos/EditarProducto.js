@@ -3,34 +3,26 @@ import { Form, Button } from "react-bootstrap";
 
 const EditarProducto = () => {
   return (
-    <>
-      <h1>Editar Producto</h1>
-      <Form>
+    <div className="container">
+      <h1 className="text-center display-2 my-3">Editar Producto</h1>
+      <Form className="border border-dark border-2 rounded py-3 px-3 my-5">
         <Form.Group className="mb-3" controlId="">
-          <Form.Label>Código único de producto:</Form.Label>
-          <Form.Control type="text" placeholder="AA-BB-00" />
+          <Form.Label>Nombre:</Form.Label>
+          <Form.Control className="border border-dark" type="text" placeholder="" />
         </Form.Group>
         <Form.Group className="mb-3" controlId="">
-          <Form.Label>Nombre del Producto:</Form.Label>
-          <Form.Control type="text" placeholder="Café Vaquita" />
+          <Form.Label>Precio:</Form.Label>
+          <Form.Control className="border border-dark" type="text" placeholder="" />
         </Form.Group>
         <Form.Group className="mb-3" controlId="">
-          <Form.Label>Descripción:</Form.Label>
-          <Form.Control type="text" placeholder="Café con Leche" />
+          <Form.Label>Categoria:</Form.Label>
+          <Form.Control className="border border-dark" type="text" placeholder="" />
         </Form.Group>
-        <Form.Group className="mb-3" controlId="">
-          <Form.Label>Cantidad:</Form.Label>
-          <Form.Control type="text" placeholder="Ingrese la cantidad:" />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="">
-          <Form.Label>Url:</Form.Label>
-          <Form.Control type="text" placeholder="Imagen URL:" />
-        </Form.Group>
-        <Button variant="primary" type="submit">
+        <Button variant="outline-dark" type="submit">
           Guardar
         </Button>
       </Form>
-    </>
+    </div>
   );
 };
 
