@@ -16,7 +16,7 @@ const AgregarProducto = () => {
         </Form.Group>
         <Form.Group className="mb-3" controlId="">
           <Form.Label>Categoria:</Form.Label>
-            <Form.Select>
+            <Form.Select className="border border-dark">
               <option>Seleccione una opción</option>
               <option>Bebida Caliente</option>
               <option>Bebida Fria</option>
