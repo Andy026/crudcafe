@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <Navbar bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#inicio">CRUD Café</Navbar.Brand>
+        <Link className="navbar-brand lead" to="/">CRUD Café</Link>
         <Nav className="me-auto">
           <Link className='nav-link' to='/'>Inicio</Link>
           <Link className='nav-link' to='/productos'>Productos</Link>
