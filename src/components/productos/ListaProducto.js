@@ -1,7 +1,7 @@
 import React from "react";
-import { ListGroup } from "react-bootstrap";
+import {Container, ListGroup } from "react-bootstrap";
 import ItemProducto from "./ItemProducto";
-import {Button, Container} from "react-bootstrap";
+import {Link} from 'react-router-dom';
 
 const ListaProducto = (props) => {
   return (
@@ -10,9 +10,9 @@ const ListaProducto = (props) => {
       <hr />
       <article className="d-flex align-items-center mb-4 justify-content-end">
         <p className="my-0 me-4 fw-bold">Agregar nuevos productos: </p>
-        <Button variant="outline-dark">
+        <Link to='/productos/nuevo' className="btn btn-outline-dark">
           Agregar
-        </Button>
+        </Link>
       </article>
       <ListGroup>
         {
