@@ -13,11 +13,11 @@ const AgregarProducto = () => {
       <Form className="border border-dark border-2 rounded py-3 px-3 my-5">
         <Form.Group className="mb-3" controlId="">
           <Form.Label>Nombre:</Form.Label>
-          <Form.Control className="border border-dark" type="text" placeholder="" onChange={event => setNombreProducto(event.target.value)}/>
+          <Form.Control id="nombre" className="border border-dark" type="text" placeholder="" onChange={event => setNombreProducto(event.target.value)}/>
         </Form.Group>
         <Form.Group className="mb-3" controlId="">
           <Form.Label>Precio:</Form.Label>
-          <Form.Control className="border border-dark" type="text" placeholder="" onChange={event => setPrecioProducto(event.target.value)}/>
+          <Form.Control id="precio" className="border border-dark" type="text" placeholder="" onChange={event => setPrecioProducto(event.target.value)}/>
         </Form.Group>
         <Form.Group className="mb-3" controlId="">
           <Form.Label>Categoria:</Form.Label>
