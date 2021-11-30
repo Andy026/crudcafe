@@ -19,12 +19,6 @@
       "id": 4
     },
     {
-      "nombreProducto": "té",
-      "precioProducto": "30",
-      "categoria": "bebida-caliente",
-      "id": 5
-    },
-    {
       "nombreProducto": "café",
       "precioProducto": "40",
       "categoria": "bebida-caliente",
@@ -35,18 +29,6 @@
       "precioProducto": "30",
       "categoria": "bebida-caliente",
       "id": 7
-    },
-    {
-      "nombreProducto": "licuado",
-      "precioProducto": "100",
-      "categoria": "bebida-fria",
-      "id": 8
-    },
-    {
-      "nombreProducto": "asdasd",
-      "precioProducto": "23",
-      "categoria": "bebida-fria",
-      "id": 9
     },
     {
       "nombreProducto": "café",

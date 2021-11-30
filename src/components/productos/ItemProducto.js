@@ -25,16 +25,20 @@ const ItemProducto = (props) => {
               "Content-Type": "application/json",
             },
           });
-          console.log(respuesta);
+          //console.log(respuesta);
+          if (respuesta.status === 200) {
+            Swal.fire(
+              "Producto eliminado",
+              "El producto fue eliminado correctamente",
+              "success"
+            );
+            props.consultaAPI();
+          }
+          //mostrar un cartel de error
         } catch (error) {
           console.log(error);
         }
         //cartel informativo para el usuario
-        Swal.fire(
-          "Producto eliminado",
-          "El producto fue eliminado correctamente",
-          "success"
-        );
       }
     });
   };
