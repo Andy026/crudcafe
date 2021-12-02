@@ -49,7 +49,7 @@ const AgregarProducto = (props) => {
           //mostrar cartel al usuario
           Swal.fire(
             'Producto creado!',
-            'Su producto fue agregado ocorrectamente!',
+            'Su producto fue agregado correctamente!',
             'success'
           )
 
