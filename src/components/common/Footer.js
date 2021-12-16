@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 const Footer = () => {
   return (
     <footer className="bg-dark text-light pt-2">
@@ -10,7 +11,7 @@ const Footer = () => {
             <div className="d-flex align-items-center mx-2">
               <h4 className="text-white text-decoration-none lead">Navegación:</h4>
               <Link className="lead nav-link text-secondary" to="/">
-                Inicio
+
               </Link>
               <Link className="lead nav-link text-secondary" to="/productos">
                 Productos
